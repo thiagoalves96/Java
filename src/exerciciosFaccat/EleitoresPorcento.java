@@ -13,25 +13,29 @@ public class EleitoresPorcento {
 		try {
 			Scanner sc= new Scanner(System.in);
 
-			int total;
+			System.out.print("Digite a quantidade Eleitores: ");
+			int eleitores = sc.nextInt();
 			System.out.print("Digite a quantidade de votos Brancos: ");
 			int branco = sc.nextInt();
 			System.out.print("Digite a quantidade de votos Nulos: ");
 			int nulos = sc.nextInt();
-			System.out.print("Digite a qunatidade de votos Válidos: ");
-			int validos = sc.nextInt();
 
-			total = branco + nulos + validos;
+			
+			if (branco > eleitores || nulos > eleitores) {
+				System.out.println("\n Valores maiores do que eleitores.");
+			}
+			else {
 
-			double porcentoB = (double) branco * 100 / total;
+			double porcentoBranco = (double) branco * 100 / eleitores;
 
-			double porcentoN = (double) nulos * 100 / total;
+			double porcentoNulos = (double) nulos * 100 / eleitores;
 
-			double porcentoV = (double) validos * 100 / total;
+			double porcentoValidos = (double) (eleitores-branco-nulos) * 100 / eleitores;
 
 			System.out.println();
-			System.out.println("Brancos: " + String.format("%.2f", porcentoB) + "% | Nulos: "
-					+ String.format("%.2f", porcentoN) + "% | Válidos: " + String.format("%.2f", porcentoV) + "% ");
+			System.out.println("Brancos: " + String.format("%.2f", porcentoBranco) + "% | Nulos: "
+					+ String.format("%.2f", porcentoNulos) + "% | Válidos: " + String.format("%.2f", porcentoValidos) + "% ");
+			}
               sc.close();
               
 		} catch (Exception e) {

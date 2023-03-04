@@ -11,21 +11,21 @@ public class Idade_Em_Dias {
 		try {
 			Scanner sc = new Scanner(System.in);
 	         
-			int mesR;
+			int mesResposta;
 			
 			System.out.println("Digite a sua idade, mes e dias para conversão: ");
 			int idade = sc.nextInt();
 			int mes = sc.nextInt();
 			int dias = sc.nextInt();
 	        
-			int anos = idade * 365;
+			int anos = idade   * 365;
 
 			if (mes == 12) {
-				 mesR = mes * 30 + 5;
+				 mesResposta = mes * 30 + 5;
 			} else {
-			    mesR = mes * 30;
+			    mesResposta = mes * 30;
 			}
-			int soma = anos + mesR + dias;
+			int soma = anos + mesResposta + dias;
 
 			System.out.println("Você tem " + soma + " dias de vidas.");
 			sc.close();
