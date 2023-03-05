@@ -13,7 +13,7 @@ public class EleitoresPorcento {
 		try {
 			Scanner sc= new Scanner(System.in);
 
-			System.out.print("Digite a quantidade Eleitores: ");
+			System.out.print("Digite a quantidade de Eleitores: ");
 			int eleitores = sc.nextInt();
 			System.out.print("Digite a quantidade de votos Brancos: ");
 			int branco = sc.nextInt();
