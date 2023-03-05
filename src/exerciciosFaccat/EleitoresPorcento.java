@@ -22,7 +22,7 @@ public class EleitoresPorcento {
 
 			
 			if (branco > eleitores || nulos > eleitores) {
-				System.out.println("\n Valores maiores do que eleitores.");
+				System.out.println("\nValores maiores do que eleitores.");
 			}
 			else {
 
