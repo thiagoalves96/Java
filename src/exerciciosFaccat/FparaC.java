@@ -1,4 +1,4 @@
-package Manzan;
+package exerciciosFaccat;
 
 import java.util.Scanner;
 
