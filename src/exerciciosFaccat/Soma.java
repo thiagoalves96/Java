@@ -1,4 +1,4 @@
-package exemplo;
+package exerciciosFaccat;
 import java.util.Scanner;
 public class Soma {
  private static Scanner sc;
