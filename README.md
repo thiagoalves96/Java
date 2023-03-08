@@ -2,7 +2,7 @@
 
 > Status: desenvolvendo ⚠️
 
-_Aqui terá alguns exercicios resolvidos por mim dentro da sala de aula, máteria Quality Assurance._
+_Aqui terá alguns exercicios resolvidos por mim dentro da sala de aula, matéria Quality Assurance._
 <br>
 
 Prof: Jailson Costa
