@@ -2,8 +2,9 @@
 
 > Status: desenvolvendo ⚠️
 
-Aqui terá alguns exercicios resolvidos por mim dentro de aula da máteria Quality Assurance.
+_Aqui terá alguns exercicios resolvidos por mim dentro de sala de aula, máteria Quality Assurance._
 <br>
+
 Prof: Jailson Costa
 <br>
 Linkedin: **[Jailson Costa](https://www.linkedin.com/in/jailson-costa-dos-santos/)**
