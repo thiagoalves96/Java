@@ -11,7 +11,7 @@ public class UsuarioId {
 		int continuar;
 		
 		do {
-			System.out.println("Digite a quantidade de usuarios a serem registrada: ");
+			System.out.println("Digite a quantidade de usuarios a serem registrados: ");
 			int quantidade = sc.nextInt();
 			usuario = new String[quantidade];
 			codigo = new int[quantidade];
